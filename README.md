@@ -34,7 +34,8 @@ For a given historical data set of purchases made from Brazilian e-commerce inte
 2. Most negative review scores have short estimated delivery days, but the actual delivery days are longer than the expected time. 
 3. Negative scores have a product price only 3.26% higher than positive review scores.
 
-<img width=460 src="images/corr_estimated_delivered.png"/> <img width=540 height=210 src="images/review_price.png"/>
+<p align="center"> <img width="600" src="images/corr_estimated_delivered.png"/> </p>
+<p align="center"> <img width="600" src="images/review_price.png"/> </p>
 
 ##  ML Modeling
 ###  ML Formulation
@@ -56,7 +57,7 @@ The work begins with an exploratory data analysis to support decision-making thr
 From the first results, the Random Forest and XGB models were dropped because they showed low recall for the negative review scores. After this, the performance of the algorithms was improved by eliminating less relevant predictors based on exploratory data analysis. Next, the choice of model was made by evaluating the metrics precision, recall, and f1_score. K Neighbors was chosen among all the others, mainly by the recall for negative review scores, since It is much more important for the business to correctly identify as many negative review scores as possible. Finally, the performance of the algorithm was improved by fine-tuning the hyperparameters.
 
 ### Final Results
-<img src="images/results.png"/>
+<p align="center"> <img src="images/results.png"/> </p>
 
 ## Conclusions
 By eliminating less relevant predictors and making hyperparameter adjustments we improved the overall performance of the algorithm from an accuracy of 66% to 72% and a considerable improvement in correctly identifying positive review scores from 51.07% to 56.60%. Most important for the business is the correct identification of negative review scores, by eliminating the least relevant predictors and making hyperparameter adjustments, we went from correctly identifying negative review scores from 63% to 65%. 
