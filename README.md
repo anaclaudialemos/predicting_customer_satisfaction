@@ -15,7 +15,7 @@ For the seller, knowing whether the review score is positive (4 or 5) or negativ
 For this case study, was used the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), with information on 100,000 orders from 2016 to 2018 placed on various marketplaces in Brazil. Its features allow you to view an order from multiple dimensions: from order status, price, payment, and shipping performance to customer location, and product attributes, until geolocation data that relates Brazilian zip codes to latitude and longitude coordinates, and finally the review score along with customers comments.
 
 ## Problem Statement
-For a given historical data set of purchases made from Brazilian e-commerce intermediated by Olist, predict the customer satisfaction (positive or negative) for the next purchases made from Brazilian e-commerce intermediated by Olist.
+For a given historical dataset of purchases made from Brazilian e-commerce intermediated by Olist, predict the customer satisfaction (positive or negative) for the next purchases made from Brazilian e-commerce intermediated by Olist.
 
 ## Business Assumptions
 * Negative review scores are very important when it comes to business improvement. It is much more important for the business to correctly identify as many negative review scores as possible than positive review scores.
